@@ -1,3 +1,13 @@
+// CHAPTER_META tells the build script the display title, time limit, and
+// scoring rules for this chapter - it's picked up automatically, no need
+// to touch data/config.js.
+const CHAPTER_META = {
+    title: "Cell: The Building Block of Life",
+    timeMinutes: 60,
+    negativeMarking: 0,
+    showReview: true
+};
+
 const QUESTION_BANK = [
 
 {

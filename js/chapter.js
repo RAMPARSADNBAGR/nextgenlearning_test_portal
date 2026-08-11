@@ -5,12 +5,15 @@
 const classId = localStorage.getItem("selectedClass");
 const subjectId = localStorage.getItem("selectedSubject");
 
-const selectedClass = APP_CONFIG.classes.find(c => c.id === classId);
-const selectedSubject = selectedClass.subjects.find(s => s.id === subjectId);
+const chapters = getChaptersFor(classId, subjectId);
 
 const container = document.getElementById("chapterContainer");
 
-selectedSubject.chapters.forEach(chapter => {
+if (chapters.length === 0) {
+    container.innerHTML = "<p>No tests have been added for this subject yet. Check back soon.</p>";
+}
+
+chapters.forEach(chapter => {
 
     const card = document.createElement("div");
 

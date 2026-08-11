@@ -255,8 +255,54 @@ width:100%;
 }
 
 /* ===============================
+   Student Name Tag
+   =============================== */
+
+.student-name-tag{
+
+    position:fixed;
+
+    top:16px;
+
+    left:16px;
+
+    background:rgba(255,255,255,.15);
+
+    border:1px solid rgba(255,255,255,.3);
+
+    color:white;
+
+    padding:8px 18px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    backdrop-filter:blur(4px);
+
+    z-index:20;
+
+    max-width:220px;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+
+    white-space:nowrap;
+
+}
+
+/* ===============================
    Quiz Layout
    =============================== */
+
+.quiz-container{
+
+    max-width:1100px;
+
+}
 
 .quiz-header{
 
@@ -286,21 +332,23 @@ width:100%;
 
 .quiz-layout{
 
-    display:flex;
+    display:grid;
 
-    gap:24px;
+    grid-template-columns:1fr 280px;
 
-    flex-wrap:wrap;
+    gap:28px;
 
-    align-items:flex-start;
+    align-items:start;
 
 }
 
 .quiz-card{
 
-    flex:2;
+    max-width:640px;
 
-    min-width:300px;
+    width:100%;
+
+    margin:0 auto;
 
     text-align:left;
 
@@ -394,33 +442,42 @@ width:100%;
 
 }
 
-/* ---- Question Navigator panel ---- */
+/* ---- Question Navigator panel (fixed-width sidebar, kept visually
+   quieter than the question card so it doesn't compete for attention) ---- */
 
 .nav-panel{
 
-    flex:1;
+    width:100%;
 
-    min-width:260px;
+    text-align:left;
 
-    background:#f8fafc;
+    background:rgba(248,250,252,.9);
 
     border-radius:14px;
 
-    padding:20px;
+    padding:18px;
 
     color:#1e293b;
 
-    box-shadow:0 8px 20px rgba(0,0,0,.15);
+    box-shadow:0 6px 14px rgba(0,0,0,.12);
+
+    position:sticky;
+
+    top:20px;
 
 }
 
 .nav-panel h3{
 
-    color:#1e293b;
+    color:#475569;
 
-    font-size:17px;
+    font-size:14px;
 
     font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:.5px;
 
     margin-bottom:14px;
 
@@ -430,9 +487,9 @@ width:100%;
 
     display:grid;
 
-    grid-template-columns:repeat(6, 1fr);
+    grid-template-columns:repeat(5, 1fr);
 
-    gap:8px;
+    gap:7px;
 
     margin-bottom:16px;
 
@@ -462,7 +519,7 @@ width:100%;
 
     cursor:pointer;
 
-    font-size:13px;
+    font-size:12px;
 
     font-weight:600;
 
@@ -537,11 +594,11 @@ width:100%;
 
 .nav-summary{
 
-    font-size:13px;
+    font-size:12px;
 
     line-height:2;
 
-    color:#334155;
+    color:#475569;
 
 }
 
@@ -563,6 +620,22 @@ width:100%;
 
 }
 
+@media (max-width:800px){
+
+    .quiz-layout{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .nav-panel{
+
+        position:static;
+
+    }
+
+}
+
 @media (max-width:640px){
 
     .navigator-grid{
@@ -576,6 +649,16 @@ width:100%;
         font-size:14px;
 
         padding:12px 6px;
+
+    }
+
+    .student-name-tag{
+
+        font-size:12px;
+
+        padding:6px 12px;
+
+        max-width:140px;
 
     }
 

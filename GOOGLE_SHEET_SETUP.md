@@ -118,13 +118,18 @@ enough.
 ## Adding a new test after server-side scoring is on
 
 1. Write the full question bank (with correct answers) in
-   `question-source-private/<class>/<subject>/<newChapterId>.js`.
-2. Run `node tools/build-public-questions.js` - this regenerates every
-   public file and answer-key export.
-3. Add the new chapter to `data/config.js`.
-4. Paste the new chapter's answer-key JSON (from `tools/answer-keys/`)
+   `question-source-private/<class>/<subject>/<newChapterId>.js`, with a
+   `CHAPTER_META` block at the top for the title/time (see any existing
+   file for the format, or `README_UPDATES.md`).
+2. Run `node tools/build-public-questions.js`. This regenerates every
+   public/local file, the chapter manifest, and the answer-key exports -
+   you do not need to touch `data/config.js`.
+3. Paste the new chapter's answer-key JSON (from `tools/answer-keys/`)
    into a new row in the **AnswerKeys** tab.
-5. Re-upload the updated `NextGen-Test-Portal-main` folder.
+4. Re-upload the updated `NextGen-Test-Portal-main` folder.
+
+(If you're using the default `serverSideScoring: false` mode, you can
+skip step 3 - just steps 1, 2, and 4.)
 
 ## Notes
 

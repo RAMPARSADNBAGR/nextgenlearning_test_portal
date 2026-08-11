@@ -22,16 +22,8 @@ const optionLetters = ["A", "B", "C", "D"];
     const chapterKey = `${student.class}|${student.subject}|${student.chapter}`;
 
     // Look up this chapter's settings (negative marking / review visibility)
-    let chapterConfig = { negativeMarking: 0, showReview: true };
-
-    try {
-        const classObj = APP_CONFIG.classes.find(c => c.id === student.class);
-        const subjectObj = classObj.subjects.find(s => s.id === student.subject);
-        const found = subjectObj.chapters.find(ch => ch.id === student.chapter);
-        if (found) chapterConfig = found;
-    } catch (e) {
-        // fall back to defaults above if lookup fails for any reason
-    }
+    const chapterConfig = getChapterConfig(student.class, student.subject, student.chapter)
+        || { negativeMarking: 0, showReview: true };
 
     const serverSideScoring = !!(APP_CONFIG.settings && APP_CONFIG.settings.serverSideScoring);
 

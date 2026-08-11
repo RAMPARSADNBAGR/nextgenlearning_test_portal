@@ -1,23 +1,16 @@
 // ===============================
 // NextGen Learning - App Configuration
 // ===============================
-// Each chapter can carry these fields:
-//   available     -> true only if a matching question-bank file exists at
-//                     public-questions/<classId>/<subjectId>/<chapterId>.js
-//   questionCount -> how many questions that file contains
-//   timeMinutes   -> exam duration for that specific test
-//   negativeMarking -> marks deducted per wrong answer (0 = no negative marking)
-//   showReview    -> after submitting, can the student see correct answers
-//                    + explanations? (set false for a "no review" test)
+// Chapters are now auto-registered - you do NOT need to edit this file
+// when adding a new test. Just:
+//   1. Write question-source-private/<classId>/<subjectId>/<chapterId>.js
+//   2. Run: node tools/build-public-questions.js
+// That's it. See CHAPTER_META in any existing question-source-private
+// file for how to set the chapter's title/time/marking.
 //
-// TO ADD A NEW TEST LATER:
-//   1. Write the full question bank (with correct answers) in
-//      question-source-private/<classId>/<subjectId>/<newChapterId>.js
-//   2. Run:  node tools/build-public-questions.js
-//      This creates the answer-free file students load, and an answer-key
-//      JSON file to paste into the "AnswerKeys" tab of your Google Sheet.
-//   3. Add a chapter entry below with the same id, available:true, and the
-//      correct questionCount/timeMinutes.
+// This file only needs editing when adding a brand-new CLASS or SUBJECT
+// (rare), or a "Coming Soon" placeholder for a chapter you haven't
+// written yet.
 
 const APP_CONFIG = {
 
@@ -53,141 +46,27 @@ const APP_CONFIG = {
         {
             id: "class8",
             name: "Class 8",
-
             subjects: [
-
-                {
-                    id: "science",
-                    name: "Science",
-                    chapters: [
-                        {
-                            id: "crop",
-                            title: "Crop Production and Management",
-                            available: false,
-                            questionCount: 0,
-                            timeMinutes: 0,
-                            negativeMarking: 0,
-                            showReview: true
-                        }
-                    ]
-                },
-
-                {
-                    id: "math",
-                    name: "Mathematics",
-                    chapters: [
-                        {
-                            id: "number",
-                            title: "Rational Numbers",
-                            available: false,
-                            questionCount: 0,
-                            timeMinutes: 0,
-                            negativeMarking: 0,
-                            showReview: true
-                        }
-                    ]
-                }
-
+                { id: "science", name: "Science", chapters: [] },
+                { id: "math", name: "Mathematics", chapters: [] }
             ]
         },
 
         {
             id: "class9",
             name: "Class 9",
-
             subjects: [
-
-                {
-                    id: "science",
-                    name: "Science",
-                    chapters: [
-
-                        {
-                            id: "cell",
-                            title: "Cell: The Building Block of Life",
-                            available: true,
-                            questionCount: 60,
-                            timeMinutes: 60,
-                            negativeMarking: 0,
-                            showReview: true
-                        },
-
-                        {
-                            id: "tissues",
-                            title: "Tissues",
-                            available: true,
-                            questionCount: 75,
-                            timeMinutes: 75,
-                            negativeMarking: 0,
-                            showReview: true
-                        }
-
-                    ]
-                },
-
-                {
-                    id: "math",
-                    name: "Mathematics",
-                    chapters: [
-
-                        {
-                            id: "number",
-                            title: "Number Systems",
-                            available: false,
-                            questionCount: 0,
-                            timeMinutes: 0,
-                            negativeMarking: 0,
-                            showReview: true
-                        }
-
-                    ]
-                }
-
+                { id: "science", name: "Science", chapters: [] },
+                { id: "math", name: "Mathematics", chapters: [] }
             ]
         },
 
         {
             id: "class10",
             name: "Class 10",
-
             subjects: [
-
-                {
-                    id: "science",
-                    name: "Science",
-                    chapters: [
-
-                        {
-                            id: "life",
-                            title: "Life Processes",
-                            available: true,
-                            questionCount: 60,
-                            timeMinutes: 60,
-                            negativeMarking: 0,
-                            showReview: true
-                        }
-
-                    ]
-                },
-
-                {
-                    id: "math",
-                    name: "Mathematics",
-                    chapters: [
-
-                        {
-                            id: "real",
-                            title: "Real Numbers",
-                            available: false,
-                            questionCount: 0,
-                            timeMinutes: 0,
-                            negativeMarking: 0,
-                            showReview: true
-                        }
-
-                    ]
-                }
-
+                { id: "science", name: "Science", chapters: [] },
+                { id: "math", name: "Mathematics", chapters: [] }
             ]
         }
 

@@ -2,6 +2,14 @@
 // NextGen Learning Quiz Engine
 // ===============================
 
+// Show the student's name in the top-left corner
+const loggedInStudent = JSON.parse(localStorage.getItem("student") || "{}");
+const studentNameTag = document.getElementById("studentNameTag");
+
+if (studentNameTag) {
+    studentNameTag.innerText = loggedInStudent.name || "";
+}
+
 // Restore current question
 let currentQuestion = parseInt(localStorage.getItem("currentQuestion")) || 0;
 

@@ -13,7 +13,7 @@ const chapterSelect = document.getElementById("dashChapter");
 // Populate the chapter dropdown from config
 APP_CONFIG.classes.forEach(cls => {
     cls.subjects.forEach(subject => {
-        subject.chapters.forEach(chapter => {
+        getChaptersFor(cls.id, subject.id).forEach(chapter => {
             if (!chapter.available) return;
             const opt = document.createElement("option");
             opt.value = `${cls.id}|${subject.id}|${chapter.id}`;

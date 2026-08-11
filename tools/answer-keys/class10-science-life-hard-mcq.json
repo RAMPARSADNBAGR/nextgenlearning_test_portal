@@ -1,0 +1,405 @@
+{
+  "chapterKey": "class10|science|life-hard-mcq",
+  "answers": {
+    "1": {
+      "answer": "B",
+      "explanation": "The correct option is: Salivary amylase acts on starch."
+    },
+    "2": {
+      "answer": "C",
+      "explanation": "The correct option is: Saliva digests starch into simpler sugar."
+    },
+    "3": {
+      "answer": "B",
+      "explanation": "The correct option is: Initial digestion of starch in the mouth."
+    },
+    "4": {
+      "answer": "B",
+      "explanation": "The correct option is: Protein digestion, acidic medium and protection by mucus."
+    },
+    "5": {
+      "answer": "A",
+      "explanation": "The correct option is: It provides an acidic medium for pepsin activity."
+    },
+    "6": {
+      "answer": "B",
+      "explanation": "The correct option is: Increased risk of damage to the stomach lining by acid."
+    },
+    "7": {
+      "answer": "B",
+      "explanation": "The correct option is: Emulsification of fats."
+    },
+    "8": {
+      "answer": "B",
+      "explanation": "The correct option is: Cellulose-rich plant food requires more extensive digestion."
+    },
+    "9": {
+      "answer": "C",
+      "explanation": "The correct option is: Proteins, carbohydrates and fats."
+    },
+    "10": {
+      "answer": "B",
+      "explanation": "The correct option is: Proteins → amino acids; carbohydrates → glucose; fats → fatty acids and glycerol."
+    },
+    "11": {
+      "answer": "A",
+      "explanation": "The correct option is: To increase the surface area available for absorption."
+    },
+    "12": {
+      "answer": "B",
+      "explanation": "The correct option is: Absorption of digested nutrients."
+    },
+    "13": {
+      "answer": "B",
+      "explanation": "The correct option is: Mouth → oesophagus → stomach → small intestine → large intestine."
+    },
+    "14": {
+      "answer": "B",
+      "explanation": "The correct option is: Controls the release of stomach contents into the small intestine."
+    },
+    "15": {
+      "answer": "B",
+      "explanation": "The correct option is: Digestion breaks complex food into simpler substances; absorption takes digested substances into the body."
+    },
+    "16": {
+      "answer": "B",
+      "explanation": "The correct option is: Pyruvate."
+    },
+    "17": {
+      "answer": "B",
+      "explanation": "The correct option is: Cytoplasm."
+    },
+    "18": {
+      "answer": "B",
+      "explanation": "The correct option is: Aerobic respiration requires oxygen and generally releases much more energy."
+    },
+    "19": {
+      "answer": "B",
+      "explanation": "The correct option is: Lactic acid."
+    },
+    "20": {
+      "answer": "A",
+      "explanation": "The correct option is: Accumulation of lactic acid in muscles."
+    },
+    "21": {
+      "answer": "B",
+      "explanation": "The correct option is: Ethanol and carbon dioxide."
+    },
+    "22": {
+      "answer": "B",
+      "explanation": "The correct option is: Aerobic breakdown of pyruvate."
+    },
+    "23": {
+      "answer": "B",
+      "explanation": "The correct option is: Its breakdown can provide energy for cellular activities."
+    },
+    "24": {
+      "answer": "B",
+      "explanation": "The correct option is: ADP and inorganic phosphate."
+    },
+    "25": {
+      "answer": "B",
+      "explanation": "The correct option is: Muscle contraction."
+    },
+    "26": {
+      "answer": "B",
+      "explanation": "The correct option is: The amount of dissolved oxygen available in water is relatively low."
+    },
+    "27": {
+      "answer": "B",
+      "explanation": "The correct option is: Passing water over gills and absorbing dissolved oxygen."
+    },
+    "28": {
+      "answer": "B",
+      "explanation": "The correct option is: Thin walls, large surface area and rich blood supply."
+    },
+    "29": {
+      "answer": "B",
+      "explanation": "The correct option is: The ribs move upward, diaphragm flattens and chest cavity enlarges."
+    },
+    "30": {
+      "answer": "B",
+      "explanation": "The correct option is: It provides sufficient time for gaseous exchange between breaths."
+    },
+    "31": {
+      "answer": "B",
+      "explanation": "The correct option is: Ongoing maintenance processes and molecular movements."
+    },
+    "32": {
+      "answer": "A",
+      "explanation": "The correct option is: Environmental effects can damage the organisation of the organism."
+    },
+    "33": {
+      "answer": "B",
+      "explanation": "The correct option is: Many cells are no longer in direct contact with the external environment."
+    },
+    "34": {
+      "answer": "A",
+      "explanation": "The correct option is: Nutrition, respiration, transportation and excretion."
+    },
+    "35": {
+      "answer": "B",
+      "explanation": "The correct option is: Autotrophic."
+    },
+    "36": {
+      "answer": "A",
+      "explanation": "The correct option is: Carbon dioxide, water, sunlight and chlorophyll."
+    },
+    "37": {
+      "answer": "B",
+      "explanation": "The correct option is: Carbon dioxide."
+    },
+    "38": {
+      "answer": "C",
+      "explanation": "The correct option is: Starch."
+    },
+    "39": {
+      "answer": "B",
+      "explanation": "The correct option is: To eliminate previously stored starch so newly formed starch can be detected."
+    },
+    "40": {
+      "answer": "B",
+      "explanation": "The correct option is: Chlorophyll-containing regions are associated with starch formation."
+    },
+    "41": {
+      "answer": "B",
+      "explanation": "The correct option is: To use up stored starch."
+    },
+    "42": {
+      "answer": "B",
+      "explanation": "The correct option is: Absorb carbon dioxide."
+    },
+    "43": {
+      "answer": "A",
+      "explanation": "The correct option is: Photosynthetic starch formation."
+    },
+    "44": {
+      "answer": "B",
+      "explanation": "The correct option is: Water content and turgidity."
+    },
+    "45": {
+      "answer": "A",
+      "explanation": "The correct option is: Proteins and other nitrogen-containing compounds."
+    },
+    "46": {
+      "answer": "B",
+      "explanation": "The correct option is: Many cells are located far from the sites of exchange with the environment."
+    },
+    "47": {
+      "answer": "B",
+      "explanation": "The correct option is: Helps red blood cells transport oxygen."
+    },
+    "48": {
+      "answer": "A",
+      "explanation": "The correct option is: Plasma."
+    },
+    "49": {
+      "answer": "B",
+      "explanation": "The correct option is: Blood clotting."
+    },
+    "50": {
+      "answer": "B",
+      "explanation": "The correct option is: Walls only one cell thick."
+    },
+    "51": {
+      "answer": "A",
+      "explanation": "The correct option is: Exchange of materials between blood and tissues."
+    },
+    "52": {
+      "answer": "C",
+      "explanation": "The correct option is: Left atrium."
+    },
+    "53": {
+      "answer": "D",
+      "explanation": "The correct option is: Left ventricle."
+    },
+    "54": {
+      "answer": "B",
+      "explanation": "The correct option is: Ventricles need to pump blood out of the heart with greater force."
+    },
+    "55": {
+      "answer": "B",
+      "explanation": "The correct option is: Prevent backward flow of blood."
+    },
+    "56": {
+      "answer": "B",
+      "explanation": "The correct option is: Lungs → left atrium → left ventricle → body."
+    },
+    "57": {
+      "answer": "B",
+      "explanation": "The correct option is: Blood passes through the heart twice during one complete cycle of circulation."
+    },
+    "58": {
+      "answer": "B",
+      "explanation": "The correct option is: It allows efficient oxygen supply to meet high energy demands."
+    },
+    "59": {
+      "answer": "B",
+      "explanation": "The correct option is: Blood passes through the heart only once during one complete cycle."
+    },
+    "60": {
+      "answer": "A",
+      "explanation": "The correct option is: Arteries generally have thick elastic walls; veins have valves."
+    },
+    "61": {
+      "answer": "A",
+      "explanation": "The correct option is: They generally carry blood away from the heart."
+    },
+    "62": {
+      "answer": "B",
+      "explanation": "The correct option is: To prevent backward flow of blood."
+    },
+    "63": {
+      "answer": "A",
+      "explanation": "The correct option is: A colourless tissue fluid with less protein than plasma."
+    },
+    "64": {
+      "answer": "B",
+      "explanation": "The correct option is: Digested and absorbed fats."
+    },
+    "65": {
+      "answer": "A",
+      "explanation": "The correct option is: Heart → lungs → heart."
+    },
+    "66": {
+      "answer": "B",
+      "explanation": "The correct option is: Xylem and phloem."
+    },
+    "67": {
+      "answer": "B",
+      "explanation": "The correct option is: Water and minerals from roots to other parts."
+    },
+    "68": {
+      "answer": "B",
+      "explanation": "The correct option is: Products of photosynthesis and other substances."
+    },
+    "69": {
+      "answer": "B",
+      "explanation": "The correct option is: Distances between roots and leaves become too large for efficient diffusion."
+    },
+    "70": {
+      "answer": "A",
+      "explanation": "The correct option is: Movement of water into the xylem from roots."
+    },
+    "71": {
+      "answer": "B",
+      "explanation": "The correct option is: The pressure generated is insufficient for such heights."
+    },
+    "72": {
+      "answer": "B",
+      "explanation": "The correct option is: Loss of water in the form of vapour from aerial parts of plants."
+    },
+    "73": {
+      "answer": "A",
+      "explanation": "The correct option is: Water loss from leaves creates a pull on the continuous water column."
+    },
+    "74": {
+      "answer": "B",
+      "explanation": "The correct option is: Strong air movement around leaves."
+    },
+    "75": {
+      "answer": "A",
+      "explanation": "The correct option is: Transpiration pull."
+    },
+    "76": {
+      "answer": "A",
+      "explanation": "The correct option is: Xylem carries water according to transpiration-driven movement, whereas phloem distributes food according to the plant's requirements."
+    },
+    "77": {
+      "answer": "B",
+      "explanation": "The correct option is: Energy input."
+    },
+    "78": {
+      "answer": "A",
+      "explanation": "The correct option is: Export of newly produced food through phloem."
+    },
+    "79": {
+      "answer": "B",
+      "explanation": "The correct option is: Xylem mainly transports water and minerals; phloem transports food and can use energy."
+    },
+    "80": {
+      "answer": "A",
+      "explanation": "The correct option is: Transpiration."
+    },
+    "81": {
+      "answer": "B",
+      "explanation": "The correct option is: Urea."
+    },
+    "82": {
+      "answer": "B",
+      "explanation": "The correct option is: Kidneys."
+    },
+    "83": {
+      "answer": "B",
+      "explanation": "The correct option is: Nephron."
+    },
+    "84": {
+      "answer": "B",
+      "explanation": "The correct option is: Bowman's capsule."
+    },
+    "85": {
+      "answer": "B",
+      "explanation": "The correct option is: Small molecules including useful substances can enter the filtrate and are later selectively reabsorbed."
+    },
+    "86": {
+      "answer": "A",
+      "explanation": "The correct option is: Glucose, amino acids, salts and much of the water."
+    },
+    "87": {
+      "answer": "A",
+      "explanation": "The correct option is: Glucose."
+    },
+    "88": {
+      "answer": "A",
+      "explanation": "The correct option is: Most filtrate is reabsorbed."
+    },
+    "89": {
+      "answer": "A",
+      "explanation": "The correct option is: The amount of excess water present in the body and the amount of dissolved waste."
+    },
+    "90": {
+      "answer": "B",
+      "explanation": "The correct option is: Kidney → ureter → urinary bladder → urethra."
+    },
+    "91": {
+      "answer": "A",
+      "explanation": "The correct option is: Movement of urine from kidneys to urinary bladder."
+    },
+    "92": {
+      "answer": "B",
+      "explanation": "The correct option is: Removing nitrogenous wastes from blood through diffusion across a dialysis membrane."
+    },
+    "93": {
+      "answer": "B",
+      "explanation": "The correct option is: Lacks nitrogenous wastes so that wastes can diffuse from blood into it."
+    },
+    "94": {
+      "answer": "A",
+      "explanation": "The correct option is: Store certain waste products in vacuoles, leaves, gums and resins or release them into surrounding soil."
+    },
+    "95": {
+      "answer": "B",
+      "explanation": "The correct option is: Removal of wastes through falling leaves."
+    },
+    "96": {
+      "answer": "A",
+      "explanation": "The correct option is: Nutrients are obtained → energy is released from food → materials are transported → wastes are removed."
+    },
+    "97": {
+      "answer": "A",
+      "explanation": "The correct option is: Reduced transpiration and restricted carbon dioxide entry."
+    },
+    "98": {
+      "answer": "A",
+      "explanation": "The correct option is: Increasing surface area and reducing diffusion distance improves exchange processes."
+    },
+    "99": {
+      "answer": "A",
+      "explanation": "The correct option is: Digestion → absorption → transportation → respiration."
+    },
+    "100": {
+      "answer": "B",
+      "explanation": "The correct option is: Nutrition supplies materials, respiration releases usable energy, transportation distributes materials, and excretion removes harmful wastes."
+    }
+  }
+}

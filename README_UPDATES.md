@@ -92,14 +92,41 @@ Science → Tissues (75 questions) is included.
 - PDF result certificates
 - Dark mode / theme toggle
 
+## 10. Adding a new test is now 2 steps, not 3
+
+Chapters are now **auto-discovered**. You no longer edit `data/config.js`
+when adding a test:
+
+1. Write `question-source-private/<class>/<subject>/<chapterId>.js`,
+   optionally starting with a `CHAPTER_META` block:
+   ```js
+   const CHAPTER_META = {
+       title: "Life Processes",
+       timeMinutes: 60,      // optional, defaults to 1 min/question
+       negativeMarking: 0,   // optional, defaults to 0
+       showReview: true      // optional, defaults to true
+   };
+   const QUESTION_BANK = [ ... ];
+   ```
+   (If you skip `CHAPTER_META`, it still works - you just get a guessed
+   title from the file name and 1 minute per question.)
+2. Run `node tools/build-public-questions.js`.
+
+That's it - the chapter appears automatically wherever it's needed. This
+regenerates `data/chapters.generated.js`, which the app reads instead of
+a hand-maintained list. `data/config.js` is now only for global settings
+and (optionally) "Coming Soon" placeholders for chapters you haven't
+written yet.
+
 ## Folder structure at a glance
 
 ```
 NextGen-Test-Portal-main/       <- upload ONLY this folder's contents to your host
+  data/chapters.generated.js    <- AUTO-GENERATED - the live list of chapters, don't hand-edit
+  data/config.js                <- global settings + optional "Coming Soon" placeholders
   questions/                    <- with-answers files, used by the default mode (serverSideScoring:false)
   public-questions/             <- answer-free question files, used when serverSideScoring:true
   google-apps-script/Code.gs    <- paste into script.google.com
-  data/config.js                <- all your settings live here
   ...
 
 question-source-private/        <- KEEP LOCAL, your master files (edit these)
