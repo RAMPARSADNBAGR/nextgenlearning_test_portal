@@ -23,7 +23,9 @@ const optionLetters = ["A", "B", "C", "D"];
 
     // Look up this chapter's settings (negative marking / review visibility)
     const chapterConfig = getChapterConfig(student.class, student.subject, student.chapter)
-        || { negativeMarking: 0, showReview: true };
+        || { negativeMarking: 0, marksPerCorrect: 1, showReview: true };
+
+    const marksPerCorrect = chapterConfig.marksPerCorrect || 1;
 
     const serverSideScoring = !!(APP_CONFIG.settings && APP_CONFIG.settings.serverSideScoring);
 
@@ -47,6 +49,7 @@ const optionLetters = ["A", "B", "C", "D"];
             chapterKey: chapterKey,
             responses: responses,
             negativeMarking: chapterConfig.negativeMarking || 0,
+            marksPerCorrect: marksPerCorrect,
             violations: cheatLog.length,
             autoSubmitted: autoSubmitted,
             violationDetails: cheatLog.map(v => v.type).join(", ")
@@ -103,8 +106,8 @@ const optionLetters = ["A", "B", "C", "D"];
         });
 
         const negativeMarking = chapterConfig.negativeMarking || 0;
-        score = Math.max(0, correct - (wrong * negativeMarking));
-        percentage = total > 0 ? ((score / total) * 100).toFixed(2) : "0.00";
+        score = Math.max(0, (correct * marksPerCorrect) - (wrong * negativeMarking));
+        percentage = total > 0 ? ((score / (total * marksPerCorrect)) * 100).toFixed(2) : "0.00";
 
         // Log this result to the Sheet (fire-and-forget)
         if (typeof sendResultToSheet === "function") {
@@ -122,6 +125,8 @@ const optionLetters = ["A", "B", "C", "D"];
                 correct: correct,
                 wrong: wrong,
                 unanswered: unanswered,
+                score: score,
+                totalMarks: total * marksPerCorrect,
                 percentage: percentage,
                 violations: cheatLog.length,
                 autoSubmitted: autoSubmitted,
@@ -174,7 +179,7 @@ const optionLetters = ["A", "B", "C", "D"];
 
         <hr>
 
-        <h2>Score : ${score} / ${total}</h2>
+        <h2>Score : ${score} / ${total * marksPerCorrect}</h2>
 
         <h2>Percentage : ${percentage}%</h2>
 

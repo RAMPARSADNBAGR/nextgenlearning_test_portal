@@ -127,7 +127,7 @@ function renderTable(results) {
                 <td>${r.Class}</td>
                 <td>${r.Subject}</td>
                 <td>${r.Chapter}</td>
-                <td>${r.Score} / ${r["Total Questions"]}</td>
+                <td>${r.Score} / ${r["Total Marks"] || r["Total Questions"]}</td>
                 <td>${r.Percentage}%</td>
                 <td>${r.Violations || 0}</td>
                 <td>${r["Auto Submitted"] ? "Yes" : "No"}</td>

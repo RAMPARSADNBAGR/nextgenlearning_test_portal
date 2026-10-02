@@ -1,0 +1,749 @@
+{
+  "chapterKey": "class11|biology|morphology-flowering-plants-paper-1",
+  "answers": {
+    "1": {
+      "answer": "C",
+      "explanation": "The meristematic zone (region of cell division) is located just above the root cap and contains actively dividing cells responsible for root growth in length. <strong>Why others are incorrect:</strong> (A) Region of maturation is where root hairs develop and absorption occurs. (B) Region of elongation is where cells elongate but do not divide. (D) Root hair zone is part of the maturation region. NCERT concept: Regions of root."
+    },
+    "2": {
+      "answer": "C",
+      "explanation": "Roots do not perform photosynthesis in all plants; photosynthesis is primarily a function of leaves. Roots absorb water and minerals (A), anchor the plant (B), and store food in some plants like carrot and sweet potato (D).  NCERT concept: Functions of root."
+    },
+    "3": {
+      "answer": "B",
+      "explanation": "In a fibrous root system, the primary root is short-lived and is replaced by a large number of roots originating from the base of the stem. <strong>Why others are incorrect:</strong> (A) Tap root system has a persistent primary root. (C) Adventitious roots arise from parts other than the radicle but the description specifically matches fibrous roots. (D) Stilt roots are a type of adventitious root modification. NCERT concept: Types of root systems."
+    },
+    "4": {
+      "answer": "A",
+      "explanation": ""
+    },
+    "5": {
+      "answer": "A",
+      "explanation": "Prop roots — Banyan (q); Stilt roots — Maize (r); Tuberous roots — Sweet potato (p); Pneumatophores — Rhizophora (s).  NCERT concept: Root modifications."
+    },
+    "6": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains why carrot and turnip tap roots become fleshy — they are modified primary roots for food storage.  NCERT concept: Root modifications for storage."
+    },
+    "7": {
+      "answer": "A",
+      "explanation": "Statements 1, 2, and 3 are correct. Statement 4 is incorrect because root hairs are short-lived and are constantly replaced as the root grows.  NCERT concept: Root hairs."
+    },
+    "8": {
+      "answer": "A",
+      "explanation": "From the tip upwards: root cap → meristematic zone (region of cell division) → region of elongation → region of maturation.  NCERT concept: Regions of root."
+    },
+    "9": {
+      "answer": "C",
+      "explanation": "Pneumatophores are vertical, negatively geotropic roots with small pores (pneumathodes) for gas exchange, found in mangrove plants like Rhizophora.  NCERT concept: Root modifications for respiration."
+    },
+    "10": {
+      "answer": "D",
+      "explanation": "Prop roots are found in banyan, not maize. Maize has stilt roots.  NCERT concept: Root modifications — examples."
+    },
+    "11": {
+      "answer": "B",
+      "explanation": ""
+    },
+    "12": {
+      "answer": "A",
+      "explanation": ""
+    },
+    "13": {
+      "answer": "A",
+      "explanation": "Both statements are correct. Fibrous root systems are characteristic of monocots, and tap root systems develop from the radicle.  NCERT concept: Root systems."
+    },
+    "14": {
+      "answer": "A",
+      "explanation": "Stilt roots arise from lower nodes of the stem, grow obliquely downward, and provide support, as seen in sugarcane and maize.  NCERT concept: Stilt roots."
+    },
+    "15": {
+      "answer": "D",
+      "explanation": ""
+    },
+    "16": {
+      "answer": "B",
+      "explanation": ""
+    },
+    "17": {
+      "answer": "C",
+      "explanation": ""
+    },
+    "18": {
+      "answer": "C",
+      "explanation": "Assertion is true — roots are modified to store food. Reason is false because storage roots can be tap roots (carrot, turnip) or adventitious roots (sweet potato).  NCERT concept: Root modifications."
+    },
+    "19": {
+      "answer": "A",
+      "explanation": "Sweet potato is a modified adventitious root, while carrot, turnip, and radish are modified tap roots.  NCERT concept: Root modifications — tap vs adventitious."
+    },
+    "20": {
+      "answer": "A",
+      "explanation": ""
+    },
+    "21": {
+      "answer": "B",
+      "explanation": ""
+    },
+    "22": {
+      "answer": "A",
+      "explanation": "Tap root — Pea (q); Fibrous root — Wheat (p); Adventitious root — Grass (r); Stilt root — Sugarcane (s).  NCERT concept: Root types and examples."
+    },
+    "23": {
+      "answer": "C",
+      "explanation": "Pneumatophores are vertical upward-growing roots with pores for gas exchange."
+    },
+    "24": {
+      "answer": "C",
+      "explanation": ""
+    },
+    "25": {
+      "answer": "B",
+      "explanation": ""
+    },
+    "26": {
+      "answer": "D",
+      "explanation": "All four statements are correct.  NCERT concept: Root modifications — comprehensive."
+    },
+    "27": {
+      "answer": "C",
+      "explanation": ""
+    },
+    "28": {
+      "answer": "C",
+      "explanation": "Root hairs are short-lived, not long-lived. They are replaced as the root grows.  NCERT concept: Root hairs."
+    },
+    "29": {
+      "answer": "C",
+      "explanation": "Sweet potato has swollen, fleshy adventitious roots for food storage.  NCERT concept: Storage roots."
+    },
+    "30": {
+      "answer": "B",
+      "explanation": "The stem conducts water and minerals from roots to leaves and also provides support.  NCERT concept: Functions of stem."
+    },
+    "31": {
+      "answer": "A",
+      "explanation": "Potato is an underground stem modification (tuber). Sweet potato (B), carrot (C), and radish (D) are root modifications.  NCERT concept: Underground stem modifications."
+    },
+    "32": {
+      "answer": "B",
+      "explanation": "Ginger has a rhizome, a horizontal underground stem.  NCERT concept: Rhizome."
+    },
+    "33": {
+      "answer": "A",
+      "explanation": "Tuber — Potato (q); Rhizome — Ginger (p); Bulb — Onion (r); Corm — Colocasia (s).  NCERT concept: Stem modifications."
+    },
+    "34": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains why potato is an underground stem — it bears nodes, internodes, and buds (eyes).  NCERT concept: Potato — underground stem."
+    },
+    "35": {
+      "answer": "D",
+      "explanation": "Rhizome is an underground stem modification, not sub-aerial. Runner (A), Sucker (B), and Offset (C) are sub-aerial modifications.  NCERT concept: Stem modifications — classification."
+    },
+    "36": {
+      "answer": "A",
+      "explanation": "Grapevine has stem tendrils for climbing.  NCERT concept: Stem tendrils."
+    },
+    "37": {
+      "answer": "A",
+      "explanation": "Statements 1, 2, and 3 are correct. Statement 4 is incorrect because stems do not always grow underground.  NCERT concept: Functions of stem."
+    },
+    "38": {
+      "answer": "B",
+      "explanation": "Sucker is a sub-aerial stem modification where a lateral branch arises from the base of the stem and grows horizontally.  NCERT concept: Sucker."
+    },
+    "39": {
+      "answer": "C",
+      "explanation": "Tendril is an aerial stem modification. Rhizome (A), Tuber (B), and Bulb (D) are underground modifications.  NCERT concept: Aerial stem modifications."
+    },
+    "40": {
+      "answer": "B",
+      "explanation": ""
+    },
+    "41": {
+      "answer": "C",
+      "explanation": "Assertion is true — some stems are modified for food storage. Reason is false because not all storage stems are underground; phylloclades like Opuntia are aerial.  NCERT concept: Stem modifications."
+    },
+    "42": {
+      "answer": "D",
+      "explanation": "Rhizome is found in ginger, not potato. Potato is a tuber.  NCERT concept: Stem modification examples."
+    },
+    "43": {
+      "answer": "A",
+      "explanation": "From underground to aerial: Rhizome (underground) → Tuber (underground) → Runner (sub-aerial) → Tendril (aerial).  NCERT concept: Stem modification types."
+    },
+    "44": {
+      "answer": "C",
+      "explanation": "Onion has a bulb, a condensed discoid stem covered with fleshy scale leaves.  NCERT concept: Bulb."
+    },
+    "45": {
+      "answer": "C",
+      "explanation": ""
+    },
+    "46": {
+      "answer": "B",
+      "explanation": "Rhizome is a horizontal underground stem that is thick, fleshy, and bears nodes and internodes.  NCERT concept: Rhizome."
+    },
+    "47": {
+      "answer": "D",
+      "explanation": "All four statements are correct.  NCERT concept: Stem modifications — comprehensive."
+    },
+    "48": {
+      "answer": "D",
+      "explanation": "Carrot is a root modification, while potato (A), ginger (B), and onion (C) are stem modifications.  NCERT concept: Stem vs root modifications."
+    },
+    "49": {
+      "answer": "B",
+      "explanation": "The horizontal underground stem with scale leaves and buds is a rhizome."
+    },
+    "50": {
+      "answer": "B",
+      "explanation": ""
+    },
+    "51": {
+      "answer": "C",
+      "explanation": "The stem of Opuntia is modified into a phylloclade — a flattened, green, fleshy structure that performs photosynthesis.  NCERT concept: Phylloclade."
+    },
+    "52": {
+      "answer": "C",
+      "explanation": ""
+    },
+    "53": {
+      "answer": "B",
+      "explanation": "Both assertion and reason are true, but the reason (examples of thorns) does not explain why thorns are modified stems. The correct explanation is that thorns are axillary buds modified into woody, pointed structures for protection.  NCERT concept: Thorns."
+    },
+    "54": {
+      "answer": "A",
+      "explanation": "Phylloclade is a flattened, green stem modification for photosynthesis.  NCERT concept: Phylloclade."
+    },
+    "55": {
+      "answer": "B",
+      "explanation": ""
+    },
+    "56": {
+      "answer": "B",
+      "explanation": "Statements 1, 2, and 4 are correct. Statement 3 is incorrect because potato is a stem modification, not a root modification.  NCERT concept: Potato — tuber."
+    },
+    "57": {
+      "answer": "C",
+      "explanation": "Bulb is a condensed, discoid stem covered with fleshy scale leaves.  NCERT concept: Bulb."
+    },
+    "58": {
+      "answer": "A",
+      "explanation": ""
+    },
+    "59": {
+      "answer": "B",
+      "explanation": "The main function of the leaf is photosynthesis.  NCERT concept: Functions of leaf."
+    },
+    "60": {
+      "answer": "B",
+      "explanation": "Venation is the arrangement of veins in a leaf.  NCERT concept: Venation."
+    },
+    "61": {
+      "answer": "B",
+      "explanation": ""
+    },
+    "62": {
+      "answer": "A",
+      "explanation": "Tendril — Pea (p); Spine — Opuntia (q); Storage — Onion (r); Pitcher — Nepenthes (s).  NCERT concept: Leaf modifications."
+    },
+    "63": {
+      "answer": "C",
+      "explanation": "Assertion is true — some leaves are modified into tendrils. Reason is false because tendrils can also be modifications of stems (e.g., grapevine).  NCERT concept: Leaf tendrils."
+    },
+    "64": {
+      "answer": "B",
+      "explanation": "Phyllotaxy is the pattern of arrangement of leaves on the stem or its branches.  NCERT concept: Phyllotaxy."
+    },
+    "65": {
+      "answer": "C",
+      "explanation": "In whorled phyllotaxy, three or more leaves arise from the same node.  NCERT concept: Phyllotaxy types."
+    },
+    "66": {
+      "answer": "B",
+      "explanation": "Statements 1, 2, and 4 are correct. Statement 3 is incorrect because leaves themselves do not bear buds in their axils; buds are present in the axil of leaves (between leaf and stem).  NCERT concept: Leaf characteristics."
+    },
+    "67": {
+      "answer": "B",
+      "explanation": "A compound leaf has its lamina divided into leaflets.  NCERT concept: Compound leaf."
+    },
+    "68": {
+      "answer": "B",
+      "explanation": "In a compound leaf, leaflets are attached to the rachis (the extended petiole).  NCERT concept: Compound leaf structure."
+    },
+    "69": {
+      "answer": "C",
+      "explanation": "Fleshy leaves of onion store food.  NCERT concept: Leaf modification for storage."
+    },
+    "70": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains the function of the pitcher modification in Nepenthes.  NCERT concept: Pitcher plant."
+    },
+    "71": {
+      "answer": "B",
+      "explanation": "Monocot leaves generally have parallel venation.  NCERT concept: Venation types."
+    },
+    "72": {
+      "answer": "A",
+      "explanation": ""
+    },
+    "73": {
+      "answer": "B",
+      "explanation": "From base to tip: stipules → petiole → lamina.  NCERT concept: Parts of leaf."
+    },
+    "74": {
+      "answer": "C",
+      "explanation": "In alternate phyllotaxy, leaves arise singly at each node, alternating sides.  NCERT concept: Phyllotaxy."
+    },
+    "75": {
+      "answer": "A",
+      "explanation": "Statements 1, 2, and 4 are correct. Statement 3 is incorrect because in compound leaves, buds are not present in the axils of leaflets; the axillary bud is present at the base of the entire leaf.  NCERT concept: Simple vs compound leaf."
+    },
+    "76": {
+      "answer": "D",
+      "explanation": "Onion leaf is modified for storage, while pea (A), Opuntia (B), and Nepenthes (C) have leaves modified into tendril, spine, and pitcher respectively.  NCERT concept: Leaf modifications."
+    },
+    "77": {
+      "answer": "B",
+      "explanation": "Cladodes are green, flattened stem structures that resemble leaves and perform photosynthesis."
+    },
+    "78": {
+      "answer": "C",
+      "explanation": ""
+    },
+    "79": {
+      "answer": "D",
+      "explanation": "Runner is a stem modification, not a leaf modification.  NCERT concept: Leaf vs stem modifications."
+    },
+    "80": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains the function of spines — reducing water loss.  NCERT concept: Leaf spines."
+    },
+    "81": {
+      "answer": "A",
+      "explanation": "Pea has leaf tendrils.  NCERT concept: Leaf tendrils."
+    },
+    "82": {
+      "answer": "C",
+      "explanation": ""
+    },
+    "83": {
+      "answer": "C",
+      "explanation": "Dicots generally have reticulate venation; monocots have parallel venation.  NCERT concept: Venation."
+    },
+    "84": {
+      "answer": "B",
+      "explanation": "Statements 1, 2, and 3 are correct. Statement 4 is incorrect because compound leaves do not have axillary buds on the rachis.  NCERT concept: Compound leaves."
+    },
+    "85": {
+      "answer": "B",
+      "explanation": ""
+    },
+    "86": {
+      "answer": "C",
+      "explanation": "Pea is a dicot and has reticulate venation. Grass (A), Wheat (B), and Maize (D) are monocots with parallel venation.  NCERT concept: Venation."
+    },
+    "87": {
+      "answer": "C",
+      "explanation": "Phylloclade is the green, flattened stem of Opuntia.  NCERT concept: Phylloclade."
+    },
+    "88": {
+      "answer": "B",
+      "explanation": "Inflorescence is the arrangement of flowers on the floral axis.  NCERT concept: Inflorescence."
+    },
+    "89": {
+      "answer": "A",
+      "explanation": "In racemose inflorescence, flowers are arranged acropetally (younger at the base, older toward the apex is incorrect; acropetal means older at base, younger at apex).  NCERT concept: Racemose inflorescence."
+    },
+    "90": {
+      "answer": "B",
+      "explanation": "In cymose inflorescence, the main axis terminates in a flower, limiting its growth.  NCERT concept: Cymose inflorescence."
+    },
+    "91": {
+      "answer": "A",
+      "explanation": "Raceme — Mustard (p); Spike — Wheat (q); Corymb — Cassia (r); Umbel — Coriander (s).  NCERT concept: Inflorescence types."
+    },
+    "92": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains the unlimited growth of the main axis in racemose inflorescence.  NCERT concept: Racemose inflorescence."
+    },
+    "93": {
+      "answer": "C",
+      "explanation": "Hypanthodium is a special type of inflorescence found in Ficus.  NCERT concept: Special inflorescence."
+    },
+    "94": {
+      "answer": "A",
+      "explanation": "Hypanthodium has a fleshy receptacle with flowers arranged on its inner surface.  NCERT concept: Hypanthodium."
+    },
+    "95": {
+      "answer": "D",
+      "explanation": "All four statements are correct.  NCERT concept: Cymose inflorescence."
+    },
+    "96": {
+      "answer": "B",
+      "explanation": "Spike has sessile flowers arranged on a common axis.  NCERT concept: Spike."
+    },
+    "97": {
+      "answer": "C",
+      "explanation": "Solanum has cymose inflorescence.  NCERT concept: Cymose inflorescence."
+    },
+    "98": {
+      "answer": "C",
+      "explanation": "Assertion is true — the main axis terminates in a flower. Reason is false because growth is limited in cymose inflorescence.  NCERT concept: Cymose inflorescence."
+    },
+    "99": {
+      "answer": "A",
+      "explanation": "In racemose inflorescence, older flowers are at the base and younger toward the apex.  NCERT concept: Racemose inflorescence."
+    },
+    "100": {
+      "answer": "B",
+      "explanation": "Capitulum is characteristic of Asteraceae (sunflower family).  NCERT concept: Capitulum."
+    },
+    "101": {
+      "answer": "B",
+      "explanation": "All four statements are correct.  NCERT concept: Racemose vs cymose."
+    },
+    "102": {
+      "answer": "C",
+      "explanation": "Solitary flower is not an inflorescence; it is a single flower. Raceme (A), Spike (B), and Corymb (D) are inflorescence types.  NCERT concept: Inflorescence types."
+    },
+    "103": {
+      "answer": "B",
+      "explanation": "Cymose inflorescence has basipetal arrangement and the main axis terminates in a flower."
+    },
+    "104": {
+      "answer": "C",
+      "explanation": ""
+    },
+    "105": {
+      "answer": "A",
+      "explanation": ""
+    },
+    "106": {
+      "answer": "D",
+      "explanation": "Solitary cyme is a cymose inflorescence, not racemose.  NCERT concept: Inflorescence classification."
+    },
+    "107": {
+      "answer": "B",
+      "explanation": "Both assertion and reason are true, but the reason (found in Ficus) does not explain why it is a special type. The special nature is due to its unique receptacle structure.  NCERT concept: Hypanthodium."
+    },
+    "108": {
+      "answer": "B",
+      "explanation": "In cyathium, flowers are reduced and arranged in a cup-like involucre.  NCERT concept: Cyathium."
+    },
+    "109": {
+      "answer": "A",
+      "explanation": "Sunflower has a capitulum inflorescence.  NCERT concept: Capitulum."
+    },
+    "110": {
+      "answer": "A",
+      "explanation": ""
+    },
+    "111": {
+      "answer": "C",
+      "explanation": "Verticillaster is found in Ocimum ( tulsi).  NCERT concept: Verticillaster."
+    },
+    "112": {
+      "answer": "B",
+      "explanation": "In spike inflorescence, flowers are sessile.  NCERT concept: Spike."
+    },
+    "113": {
+      "answer": "D",
+      "explanation": "The flower is a modified shoot.  NCERT concept: Flower — modified shoot."
+    },
+    "114": {
+      "answer": "B",
+      "explanation": "Calyx is the outermost whorl.  NCERT concept: Floral whorls."
+    },
+    "115": {
+      "answer": "B",
+      "explanation": "The unit of calyx is sepal.  NCERT concept: Calyx."
+    },
+    "116": {
+      "answer": "A",
+      "explanation": "Calyx — Sepal (q); Corolla — Petal (r); Androecium — Stamen (s); Gynoecium — Carpel (p).  NCERT concept: Floral whorls and units."
+    },
+    "117": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains that floral parts are modified leaves.  NCERT concept: Flower — modified shoot."
+    },
+    "118": {
+      "answer": "B",
+      "explanation": "A bisexual flower has both androecium and gynoecium.  NCERT concept: Floral sexuality."
+    },
+    "119": {
+      "answer": "B",
+      "explanation": "Actinomorphic flowers are radially symmetrical.  NCERT concept: Floral symmetry."
+    },
+    "120": {
+      "answer": "D",
+      "explanation": "All four statements are correct.  NCERT concept: Floral symmetry."
+    },
+    "121": {
+      "answer": "B",
+      "explanation": "Aestivation is the mode of arrangement of sepals or petals in a floral bud.  NCERT concept: Aestivation."
+    },
+    "122": {
+      "answer": "B",
+      "explanation": "In twisted aestivation, margins of adjacent petals overlap in one direction.  NCERT concept: Twisted aestivation."
+    },
+    "123": {
+      "answer": "D",
+      "explanation": "Vexillary aestivation has one large petal (standard) and others overlapping in a specific pattern.  NCERT concept: Vexillary aestivation."
+    },
+    "124": {
+      "answer": "A",
+      "explanation": "Valvate — Calotropis (p); Twisted — China rose (s); Imbricate — Cassia (r); Vexillary — Pea (q).  NCERT concept: Aestivation types."
+    },
+    "125": {
+      "answer": "B",
+      "explanation": "Placentation is the arrangement of ovules within the ovary.  NCERT concept: Placentation."
+    },
+    "126": {
+      "answer": "B",
+      "explanation": "Axile placentation has ovules attached to the central axis of a multilocular ovary.  NCERT concept: Axile placentation."
+    },
+    "127": {
+      "answer": "C",
+      "explanation": "Parietal placentation has ovules on the inner wall of the ovary.  NCERT concept: Parietal placentation."
+    },
+    "128": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains that different plants show different placentation types.  NCERT concept: Placentation."
+    },
+    "129": {
+      "answer": "B",
+      "explanation": "All four statements are correct.  NCERT concept: Placentation types."
+    },
+    "130": {
+      "answer": "A",
+      "explanation": "Hypogynous flowers have the ovary at the highest position on the thalamus (superior ovary).  NCERT concept: Ovary position."
+    },
+    "131": {
+      "answer": "C",
+      "explanation": "In epigynous flowers, sepals, petals, and stamens are attached above the ovary (inferior ovary).  NCERT concept: Epigynous."
+    },
+    "132": {
+      "answer": "B",
+      "explanation": "Perigynous flowers have a half-inferior ovary.  NCERT concept: Perigynous."
+    },
+    "133": {
+      "answer": "D",
+      "explanation": "China rose is hypogynous. Rose is perigynous, Mustard is hypogynous, Guava is epigynous.  NCERT concept: Ovary position examples."
+    },
+    "134": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains why the ovary is inferior in epigynous flowers.  NCERT concept: Epigynous."
+    },
+    "135": {
+      "answer": "C",
+      "explanation": "Floral formula represents the number and arrangement of floral whorls.  NCERT concept: Floral formula."
+    },
+    "136": {
+      "answer": "B",
+      "explanation": "“K” represents calyx.  NCERT concept: Floral formula symbols."
+    },
+    "137": {
+      "answer": "D",
+      "explanation": "All four statements are correct.  NCERT concept: Floral formula symbols."
+    },
+    "138": {
+      "answer": "B",
+      "explanation": "“%” indicates zygomorphic symmetry.  NCERT concept: Floral formula."
+    },
+    "139": {
+      "answer": "C",
+      "explanation": "“⚥” indicates a bisexual flower.  NCERT concept: Floral formula."
+    },
+    "140": {
+      "answer": "D",
+      "explanation": "Both A and C correctly represent a hypogynous flower (superior ovary).  NCERT concept: Floral formula."
+    },
+    "141": {
+      "answer": "B",
+      "explanation": "Floral diagram represents the arrangement of floral parts in a cross-section.  NCERT concept: Floral diagram."
+    },
+    "142": {
+      "answer": "B",
+      "explanation": "All four statements are correct.  NCERT concept: Floral diagram."
+    },
+    "143": {
+      "answer": "B",
+      "explanation": "K(5) C(5) A5 G(2) represents 5 fused sepals, 5 fused petals, 5 stamens, and a bicarpellary syncarpous ovary.  NCERT concept: Floral formula."
+    },
+    "144": {
+      "answer": "D",
+      "explanation": "Pedicel is not a floral whorl; it is the stalk of the flower.  NCERT concept: Floral whorls."
+    },
+    "145": {
+      "answer": "B",
+      "explanation": "Fruit is a mature ovary.  NCERT concept: Fruit development."
+    },
+    "146": {
+      "answer": "C",
+      "explanation": "Simple fruit develops from a single ovary of a single flower.  NCERT concept: Simple fruit."
+    },
+    "147": {
+      "answer": "B",
+      "explanation": "False fruit develops from an inferior ovary and other floral parts.  NCERT concept: False fruit."
+    },
+    "148": {
+      "answer": "A",
+      "explanation": "Simple fruit — Mango (q); Aggregate fruit — Custard apple (r); Multiple fruit — Pineapple (p); False fruit — Apple (s).  NCERT concept: Fruit types."
+    },
+    "149": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains why apple is a false fruit — the thalamus contributes to fruit formation.  NCERT concept: False fruit."
+    },
+    "150": {
+      "answer": "B",
+      "explanation": "All four statements are correct.  NCERT concept: Fruit types."
+    },
+    "151": {
+      "answer": "B",
+      "explanation": "Seed develops from ovule.  NCERT concept: Seed development."
+    },
+    "152": {
+      "answer": "B",
+      "explanation": "Seed coat is the outer protective layer of a seed.  NCERT concept: Seed structure."
+    },
+    "153": {
+      "answer": "B",
+      "explanation": "In dicot seeds, food is stored in cotyledons.  NCERT concept: Dicot seed."
+    },
+    "154": {
+      "answer": "C",
+      "explanation": "Maize is a monocot seed. Bean (A), Gram (B), and Pea (D) are dicot seeds.  NCERT concept: Monocot vs dicot seed."
+    },
+    "155": {
+      "answer": "B",
+      "explanation": "Both assertion and reason are true, but the reason (dicots have two cotyledons) does not explain why monocots have one cotyledon.  NCERT concept: Seed types."
+    },
+    "156": {
+      "answer": "C",
+      "explanation": "Embryo develops into a new plant.  NCERT concept: Seed structure."
+    },
+    "157": {
+      "answer": "A",
+      "explanation": "Statements 1, 2, and 3 are correct. Statement 4 is incorrect because monocots have one cotyledon.  NCERT concept: Monocot seed."
+    },
+    "158": {
+      "answer": "B",
+      "explanation": "Pea fruit is a legume.  NCERT concept: Fruit types."
+    },
+    "159": {
+      "answer": "C",
+      "explanation": "Pineapple is a multiple fruit, not a simple fruit.  NCERT concept: Fruit types."
+    },
+    "160": {
+      "answer": "A",
+      "explanation": "Simple fruit develops from a single ovary."
+    },
+    "161": {
+      "answer": "B",
+      "explanation": ""
+    },
+    "162": {
+      "answer": "B",
+      "explanation": "Seed coat develops from integuments.  NCERT concept: Seed development."
+    },
+    "163": {
+      "answer": "C",
+      "explanation": "Pea is a dicot seed. Maize (A) is monocot, Bean (B) is dicot, Gram (D) is dicot.  NCERT concept: Seed types."
+    },
+    "164": {
+      "answer": "C",
+      "explanation": "Assertion is true — maize is a monocot seed. Reason is false because maize has one cotyledon, not two.  NCERT concept: Monocot seed."
+    },
+    "165": {
+      "answer": "D",
+      "explanation": "Embryo consists of radicle, plumule, and cotyledons.  NCERT concept: Seed structure."
+    },
+    "166": {
+      "answer": "B",
+      "explanation": "Fabaceae is the pea family.  NCERT concept: Fabaceae."
+    },
+    "167": {
+      "answer": "B",
+      "explanation": "Characteristic fruit of Fabaceae is legume.  NCERT concept: Fabaceae — fruit."
+    },
+    "168": {
+      "answer": "A",
+      "explanation": "Floral formula of Fabaceae is % K(5) C1+2+(2) A(9)+1 G1.  NCERT concept: Fabaceae — floral formula."
+    },
+    "169": {
+      "answer": "A",
+      "explanation": "Fabaceae — Diadelphous stamens (q); Solanaceae — Epipetalous stamens (p); Liliaceae — Superior ovary (r).  NCERT concept: Family characteristics."
+    },
+    "170": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains that diadelphous stamens are united into two bundles.  NCERT concept: Fabaceae — androecium."
+    },
+    "171": {
+      "answer": "B",
+      "explanation": "Solanaceae is the potato family.  NCERT concept: Solanaceae."
+    },
+    "172": {
+      "answer": "B",
+      "explanation": "Epipetalous stamens are characteristic of Solanaceae.  NCERT concept: Solanaceae — androecium."
+    },
+    "173": {
+      "answer": "B",
+      "explanation": "All four statements are correct.  NCERT concept: Solanaceae characteristics."
+    },
+    "174": {
+      "answer": "A",
+      "explanation": "Floral formula of Solanaceae is ⊕ K(5) C(5) A5 G(2).  NCERT concept: Solanaceae — floral formula."
+    },
+    "175": {
+      "answer": "C",
+      "explanation": "Onion belongs to Liliaceae.  NCERT concept: Liliaceae — examples."
+    },
+    "176": {
+      "answer": "C",
+      "explanation": "Liliaceae has a tricarpellary syncarpous ovary.  NCERT concept: Liliaceae — gynoecium."
+    },
+    "177": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains the superior ovary in Liliaceae — it is trilocular with axile placentation.  NCERT concept: Liliaceae — ovary."
+    },
+    "178": {
+      "answer": "B",
+      "explanation": "All four statements are correct.  NCERT concept: Fabaceae characteristics."
+    },
+    "179": {
+      "answer": "A",
+      "explanation": "Pea — Fabaceae (r); Tomato — Solanaceae (p); Onion — Liliaceae (q); Sunflower — Asteraceae (s).  NCERT concept: Plant families."
+    },
+    "180": {
+      "answer": "C",
+      "explanation": "Floral formula of Liliaceae is ⊕ K3+3 C3+3 A3+3 G(3).  NCERT concept: Liliaceae — floral formula."
+    },
+    "181": {
+      "answer": "B",
+      "explanation": "Gram is an economically important plant of Fabaceae.  NCERT concept: Fabaceae — economic importance."
+    },
+    "182": {
+      "answer": "B",
+      "explanation": "Papilionaceous corolla, diadelphous stamens, monocarpellary ovary with marginal placentation → Fabaceae."
+    },
+    "183": {
+      "answer": "C",
+      "explanation": ""
+    },
+    "184": {
+      "answer": "B",
+      "explanation": "All four statements are correct.  NCERT concept: Family characteristics — comparison."
+    },
+    "185": {
+      "answer": "B",
+      "explanation": "Placentation in Liliaceae is axile.  NCERT concept: Liliaceae — placentation."
+    },
+    "186": {
+      "answer": "A",
+      "explanation": "Both assertion and reason are true, and the reason correctly explains why both families have superior ovaries — floral parts are arranged below the ovary.  NCERT concept: Ovary position — families."
+    }
+  }
+}

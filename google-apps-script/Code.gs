@@ -79,6 +79,19 @@ function getOrCreateSheet(name, headers) {
 
 }
 
+// Adds a column header to an existing sheet if it is not there yet (new
+// columns always go at the far right, so older rows are untouched).
+function ensureHeader(sheet, headerName) {
+
+    const lastCol = Math.max(sheet.getLastColumn(), 1);
+    const headers = sheet.getRange(1, 1, 1, lastCol).getValues()[0];
+
+    if (headers.indexOf(headerName) === -1) {
+        sheet.getRange(1, lastCol + 1).setValue(headerName);
+    }
+
+}
+
 function sheetToObjects(sheet) {
 
     const values = sheet.getDataRange().getValues();
@@ -110,6 +123,8 @@ function handleLogOnly(data) {
         "Violation Details"
     ]);
 
+    ensureHeader(resultsSheet, "Total Marks");
+
     resultsSheet.appendRow([
         data.timestamp || new Date(),
         data.name || "",
@@ -124,11 +139,12 @@ function handleLogOnly(data) {
         data.correct || 0,
         data.wrong || 0,
         data.unanswered || 0,
-        data.correct || 0,
+        (data.score !== undefined && data.score !== null) ? data.score : (data.correct || 0),
         data.percentage || "0.00",
         data.violations || 0,
         data.autoSubmitted || false,
-        data.violationDetails || ""
+        data.violationDetails || "",
+        data.totalMarks || data.totalQuestions || 0
     ]);
 
     return { status: "success" };
@@ -156,6 +172,7 @@ function handleSubmit(data) {
 
     const answerKey = JSON.parse(keyRow.AnswerKeyJSON).answers; // { id: {answer, explanation} }
     const negativeMarking = Number(data.negativeMarking) || 0;
+    const marksPerCorrect = Number(data.marksPerCorrect) || 1;
 
     let correct = 0, wrong = 0, unanswered = 0;
     const correctAnswers = {};
@@ -197,8 +214,9 @@ function handleSubmit(data) {
     });
 
     const total = Object.keys(answerKey).length;
-    const score = Math.max(0, correct - (wrong * negativeMarking));
-    const percentage = total > 0 ? ((score / total) * 100).toFixed(2) : "0.00";
+    const score = Math.max(0, (correct * marksPerCorrect) - (wrong * negativeMarking));
+    const totalMarks = total * marksPerCorrect;
+    const percentage = totalMarks > 0 ? ((score / totalMarks) * 100).toFixed(2) : "0.00";
 
     // Save the summary result
     const resultsSheet = getOrCreateSheet("Results", [
@@ -207,6 +225,8 @@ function handleSubmit(data) {
         "Unanswered", "Score", "Percentage", "Violations", "Auto Submitted",
         "Violation Details"
     ]);
+
+    ensureHeader(resultsSheet, "Total Marks");
 
     resultsSheet.appendRow([
         new Date(),
@@ -226,7 +246,8 @@ function handleSubmit(data) {
         percentage,
         data.violations || 0,
         data.autoSubmitted || false,
-        data.violationDetails || ""
+        data.violationDetails || "",
+        totalMarks
     ]);
 
     // Save per-question responses (used for "most missed question" analytics)
@@ -247,6 +268,7 @@ function handleSubmit(data) {
         wrong: wrong,
         unanswered: unanswered,
         score: score,
+        totalMarks: totalMarks,
         percentage: percentage,
         correctAnswers: correctAnswers,
         explanations: explanations

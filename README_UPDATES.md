@@ -136,3 +136,21 @@ tools/
 ```
 
 Note: in the default mode (`serverSideScoring: false`), `NextGen-Test-Portal-main/questions/` **does** contain the correct answers, because that's how local/in-browser scoring works. This is fine to host - it's the same trade-off the original portal always had. If you want answers to never reach the browser, turn on `serverSideScoring: true` (see `GOOGLE_SHEET_SETUP.md`), which uses `public-questions/` instead.
+
+## 11. Marks per correct answer, Class 11 / 12, per-class scoring
+
+- `marksPerCorrect` (default 1) now sits next to `negativeMarking` in
+  `CHAPTER_META`. Score = correct x marksPerCorrect - wrong x negativeMarking
+  (never below 0); percentage is out of total questions x marksPerCorrect.
+- `tools/build-public-questions.js` has `CLASS_SCORING_DEFAULTS` near the top.
+  Class 11 defaults to +4 / -1. Add a line there (e.g. `class12: {...}`) to
+  give another class a default; a chapter's own `CHAPTER_META` always wins.
+- Class 11 and Class 12 (Biology, Chemistry, Physics) are in `data/config.js`
+  with every chapter listed as "Coming Soon". A placeholder disappears when a
+  test file is named `<placeholder-id>.js` or `<placeholder-id>-<anything>.js`.
+  Real tests are listed before the Coming Soon chapters.
+- The build script now writes into the project root (the old
+  `NextGen-Test-Portal-main/` sub-folder no longer exists in the repo).
+- Apps Script: re-deploy `google-apps-script/Code.gs` (Deploy > Manage
+  deployments > edit > New version) so the sheet records real marks and a new
+  "Total Marks" column.

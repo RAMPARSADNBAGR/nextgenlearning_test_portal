@@ -21,9 +21,18 @@ function getChaptersFor(classId, subjectId) {
 
     const generatedIds = generatedChapters.map(c => c.id);
 
+    // A "Coming Soon" placeholder disappears as soon as a real test exists
+    // for that chapter: either the same id, or an id that starts with the
+    // placeholder id plus a dash (e.g. placeholder "morphology-flowering-plants"
+    // is replaced by tests "morphology-flowering-plants-paper-1" and "-paper-2").
+    const stillComingSoon = manualChapters.filter(c =>
+        !generatedIds.some(id => id === c.id || id.startsWith(c.id + "-"))
+    );
+
+    // Real tests first, then the remaining "Coming Soon" chapters.
     return [
-        ...manualChapters.filter(c => !generatedIds.includes(c.id)),
-        ...generatedChapters
+        ...generatedChapters,
+        ...stillComingSoon
     ];
 
 }

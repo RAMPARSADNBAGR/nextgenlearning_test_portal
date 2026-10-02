@@ -16,8 +16,18 @@ document.getElementById("studentInfo").innerHTML =
 <strong>Chapter :</strong> ${chapterTitle}
 `;
 
+const marksPerCorrect = Number(localStorage.getItem("selectedMarksPerCorrect")) || 1;
+const negativeMarking = Number(localStorage.getItem("selectedNegativeMarking")) || 0;
+
 document.getElementById("qCount").innerText = questionCount;
-document.getElementById("qMarks").innerText = questionCount;
+document.getElementById("qMarks").innerText = Number(questionCount) * marksPerCorrect;
+
+document.getElementById("perQuestionMarks").innerText =
+    `Each correct answer carries ${marksPerCorrect} mark${marksPerCorrect === 1 ? "" : "s"}.`;
+
+document.getElementById("negMarkLine").innerText = negativeMarking > 0
+    ? `Negative Marking : −${negativeMarking} mark for each wrong answer (unanswered questions carry no penalty)`
+    : "No Negative Marking";
 document.getElementById("qTime").innerText = timeMinutes;
 
 document.getElementById("startExam").onclick = function () {

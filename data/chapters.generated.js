@@ -3,12 +3,23 @@
 const CHAPTER_DATA = {
   "class10|science": [
     {
+      "id": "life-hard-mcq",
+      "title": "Life Processes — Hard MCQ Bank",
+      "available": true,
+      "questionCount": 100,
+      "timeMinutes": 100,
+      "negativeMarking": 0,
+      "marksPerCorrect": 1,
+      "showReview": true
+    },
+    {
       "id": "life-mcq-bank",
       "title": "Life Processes — MCQ Bank",
       "available": true,
       "questionCount": 100,
       "timeMinutes": 100,
       "negativeMarking": 0,
+      "marksPerCorrect": 1,
       "showReview": true
     },
     {
@@ -18,6 +29,29 @@ const CHAPTER_DATA = {
       "questionCount": 60,
       "timeMinutes": 60,
       "negativeMarking": 0,
+      "marksPerCorrect": 1,
+      "showReview": true
+    }
+  ],
+  "class11|biology": [
+    {
+      "id": "morphology-flowering-plants-paper-1",
+      "title": "Morphology of Flowering Plants — Paper 1",
+      "available": true,
+      "questionCount": 186,
+      "timeMinutes": 186,
+      "negativeMarking": 1,
+      "marksPerCorrect": 4,
+      "showReview": true
+    },
+    {
+      "id": "morphology-flowering-plants-paper-2",
+      "title": "Morphology of Flowering Plants — Paper 2",
+      "available": true,
+      "questionCount": 186,
+      "timeMinutes": 186,
+      "negativeMarking": 1,
+      "marksPerCorrect": 4,
       "showReview": true
     }
   ],
@@ -29,6 +63,27 @@ const CHAPTER_DATA = {
       "questionCount": 60,
       "timeMinutes": 60,
       "negativeMarking": 0,
+      "marksPerCorrect": 1,
+      "showReview": true
+    },
+    {
+      "id": "forces-motion",
+      "title": "How Forces Affect Motion",
+      "available": true,
+      "questionCount": 75,
+      "timeMinutes": 75,
+      "negativeMarking": 0,
+      "marksPerCorrect": 1,
+      "showReview": true
+    },
+    {
+      "id": "mixtures-separation",
+      "title": "Exploring Mixtures and Their Separation",
+      "available": true,
+      "questionCount": 75,
+      "timeMinutes": 75,
+      "negativeMarking": 0,
+      "marksPerCorrect": 1,
       "showReview": true
     },
     {
@@ -38,6 +93,7 @@ const CHAPTER_DATA = {
       "questionCount": 75,
       "timeMinutes": 75,
       "negativeMarking": 0,
+      "marksPerCorrect": 1,
       "showReview": true
     }
   ]

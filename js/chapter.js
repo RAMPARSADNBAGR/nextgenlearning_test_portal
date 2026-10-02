@@ -33,6 +33,8 @@ chapters.forEach(chapter => {
             localStorage.setItem("selectedChapterTitle", chapter.title);
             localStorage.setItem("selectedQuestionCount", chapter.questionCount);
             localStorage.setItem("selectedTimeMinutes", chapter.timeMinutes);
+            localStorage.setItem("selectedMarksPerCorrect", chapter.marksPerCorrect || 1);
+            localStorage.setItem("selectedNegativeMarking", chapter.negativeMarking || 0);
 
             window.location.href = "login.html";
 

@@ -25,7 +25,8 @@
  *   const CHAPTER_META = {
  *       title: "Life Processes",
  *       timeMinutes: 60,        // optional, defaults to 1 minute/question
- *       negativeMarking: 0,     // optional, defaults to 0
+ *       negativeMarking: 0,     // optional, defaults to the class default, else 0
+ *       marksPerCorrect: 1,     // optional, defaults to the class default, else 1
  *       showReview: true        // optional, defaults to true
  *   };
  *
@@ -39,10 +40,19 @@ const fs = require("fs");
 const path = require("path");
 
 const SOURCE_ROOT = path.join(__dirname, "..", "question-source-private");
-const PUBLIC_ROOT = path.join(__dirname, "..", "NextGen-Test-Portal-main", "public-questions");
-const LOCAL_MODE_ROOT = path.join(__dirname, "..", "NextGen-Test-Portal-main", "questions");
+// The project now lives at the repository root (no NextGen-Test-Portal-main/
+// sub-folder), so the website folders are resolved from the project root.
+const SITE_ROOT = path.join(__dirname, "..");
+const PUBLIC_ROOT = path.join(SITE_ROOT, "public-questions");
+const LOCAL_MODE_ROOT = path.join(SITE_ROOT, "questions");
 const KEYS_ROOT = path.join(__dirname, "answer-keys");
-const CHAPTERS_MANIFEST_PATH = path.join(__dirname, "..", "NextGen-Test-Portal-main", "data", "chapters.generated.js");
+const CHAPTERS_MANIFEST_PATH = path.join(SITE_ROOT, "data", "chapters.generated.js");
+
+// Default scoring per class. A chapter's own CHAPTER_META always wins over
+// these; anything not listed here uses +1 per correct, no negative marking.
+const CLASS_SCORING_DEFAULTS = {
+    class11: { marksPerCorrect: 4, negativeMarking: 1 }
+};
 
 function loadChapterFile(filePath) {
 
@@ -158,7 +168,12 @@ function main() {
             available: true,
             questionCount: bank.length,
             timeMinutes: (meta && meta.timeMinutes) || bank.length,
-            negativeMarking: (meta && meta.negativeMarking) || 0,
+            negativeMarking: (meta && typeof meta.negativeMarking === "number")
+                ? meta.negativeMarking
+                : ((CLASS_SCORING_DEFAULTS[classId] || {}).negativeMarking || 0),
+            marksPerCorrect: (meta && typeof meta.marksPerCorrect === "number")
+                ? meta.marksPerCorrect
+                : ((CLASS_SCORING_DEFAULTS[classId] || {}).marksPerCorrect || 1),
             showReview: meta && typeof meta.showReview === "boolean" ? meta.showReview : true
         });
 
